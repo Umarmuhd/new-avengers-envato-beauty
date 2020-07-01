@@ -1,7 +1,8 @@
 body{
     color: black;
     font-family: 'Open Sans', sans-serif;
-   
+    margin: 0;
+    padding: 0;   
 }
 h1{
     font-weight: 600;
@@ -19,19 +20,23 @@ h1{
     padding: 0;
 }
 .navbar-brand{
-    margin-left: 117px;
     font-family: Lato;
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
     text-align: justify;
     color: black;
+    padding-top: 27px;
+    padding-bottom: 25px;
 }
 #weave{
     color: #085e5e;
 }
-.nav--item{
-    padding: 30px 20px;
+.nav-item{
+    padding-top: 27px;
+    padding-bottom: 26px;
+    padding-right: 12px;
+    
 }
 .nav-link{
     font-family: Lato;
@@ -41,10 +46,11 @@ h1{
     text-align: justify;
     color: black;
 }
-.wrapper{    
+.wrapper{      
+    margin: 0 ;
+    padding-left: 117px;
+    padding-right: 92px;   
     
-    margin: 0 auto;
-    width: 1440px;
 }
 
 #header{
@@ -57,8 +63,7 @@ h1{
     color: #085e5e;
 }
 .header-content{
-    margin-left: 117px;
-    
+    padding: 0 92px 0 117px;
 }
 .header-content a{
     color: #f6f6f6;
@@ -76,8 +81,10 @@ h1{
 
 
 /* Schedule */
+#schedule{
+    padding: 103px 300px 84px;
+}
 .schedule-container{
-    margin: 103px 300px 84px;
     background: #FFFFFF;
     border: 2px solid #0CBABA;
     box-sizing: border-box;
@@ -152,9 +159,10 @@ h1{
 
 
 /* Why Our Clients Choose Us */
-#why-us h2{
-    padding-top: 84px;
-    padding-bottom: 72px;
+#why-us{    
+    padding: 84px 118px 72px 120px;
+}
+#why-us h2{    
     text-align: center;
     font-family: Open Sans;
     font-size: 32px;
@@ -165,11 +173,9 @@ h1{
 }
 
 .why-us-container{
-    margin-left: 120px;
-    margin-right: 118px;
+    
 }
 .why-us-content{
-    padding: 0;
     width: 687px;
 }
 
@@ -203,7 +209,12 @@ h1{
     width: 547px;
 }
 
+
+
+
+
 /* Our Services */
+
 #our-services h2{
     text-align: center;
     text-decoration: underline;
@@ -228,7 +239,7 @@ h1{
     text-align: center;
 }
 .services{
-    margin: 40px auto 67px auto;
+    padding: 40px auto 67px auto;
     text-align: center;
 }
 .services h3{
@@ -239,12 +250,14 @@ h1{
     font-size: 1.125rem;
     line-height: 25px;
     width: 305px;
+    text-align: center;
 }
 .left-box{
     border-right: 3px solid #FD90B0;
 }
 .viewmore{
     text-align: center;
+    margin-top: 67px;
 }
 .viewmore a{    
     background: #085E5E;
@@ -261,8 +274,53 @@ h1{
 
 
 
+/* Our Professionals */
+#pro-team{
+    padding: 10px 120px;
+}
+#pro-team h2{
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 42px;
+    text-align: center;
+    text-decoration: underline black;
+    margin-bottom: 0;
+}
+#pro{
+    color: #FD90B0;
+}
+#pro-team p{  
+    padding-top: 72px;   
+    padding-bottom: 67px; 
+    margin-bottom: 0;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+}
 
+.team-image{
+    padding-right: 2%;
+}
 
+/* Our Portfolio */
+#our-portfolio{
+    padding: 40px 117px 54px 120px;
+}
+#our-portfolio h2{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 44px;
+    text-align: center;
+}
+.portfolio-image{
+    padding-left: 0;
+    padding-right: 13px;
+    
+}
+.portfolio-img{
+    padding-top: 12px;
+}
 
 
 
