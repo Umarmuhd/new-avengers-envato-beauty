@@ -1,6 +1,7 @@
 body{
     color: black;
     font-family: 'Open Sans', sans-serif;
+   
 }
 h1{
     font-weight: 600;
@@ -12,8 +13,6 @@ h1{
 /* Navigation bar */
 .nav-container{
     background: rgba(255, 255, 255, 0.8);
-    /* mix-blend-mode: normal;
-    filter: blur(4px); */
 }
 .navbar{
     margin: auto;
@@ -22,12 +21,11 @@ h1{
 .navbar-brand{
     margin-left: 117px;
     font-family: Lato;
-    font-style: normal;
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
     text-align: justify;
-    color: #000000;
+    color: black;
 }
 #weave{
     color: #085e5e;
@@ -37,16 +35,16 @@ h1{
 }
 .nav-link{
     font-family: Lato;
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
     text-align: justify;
-    color: #000000;
+    color: black;
 }
-.wrapper{
-    width: 1440px;
+.wrapper{    
+    
     margin: 0 auto;
+    width: 1440px;
 }
 
 #header{
@@ -65,14 +63,39 @@ h1{
 .header-content a{
     color: #f6f6f6;
     background: #085E5E;
-    border-radius: 5px;
-    font-family: Open Sans;
+    border-radius: 5px;    
     font-weight: bold;
     font-size: 14px;
     line-height: 19px;
     padding: 11px 25px;
     text-decoration: none;
 }
+
+
+
+
+
+/* Schedule */
+.schedule-container{
+    margin: 103px 300px 84px;
+    background: #FFFFFF;
+    border: 2px solid #0CBABA;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.schedule{
+    width: 499px;
+}
+.schedule h2{
+    padding-top: 11px;
+    padding-left: 91px;
+    padding-bottom: 12px;
+}
+.pricing{
+    width: 341px;
+    background-color: #031926;
+}
+
 
 
 
@@ -105,6 +128,8 @@ h1{
 
 /* Why Our Clients Choose Us */
 #why-us h2{
+    padding-top: 84px;
+    padding-bottom: 72px;
     text-align: center;
     font-family: Open Sans;
     font-size: 32px;
@@ -114,17 +139,43 @@ h1{
     color: #FD90B0;
 }
 
+.why-us-container{
+    margin-left: 120px;
+    margin-right: 118px;
+}
+.why-us-content{
+    padding: 0;
+    width: 687px;
+}
+
+.read-more{
+    text-align: center;
+}
+.read-more a{
+    background: #085E5E;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+}
+
 #para-1{
+    padding-top: 132px;
+    padding-bottom: 30px;
     font-weight: bold;
     font-size: 25px;
     line-height: 34px;
+    width: 655px;
 }
 #para-2{
     font-weight: 400;
     font-size: 25px;
     line-height: 34px;
-
-color: #000000;
+}
+.why-us-image{
+    width: 547px;
 }
 
 
