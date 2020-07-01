@@ -85,45 +85,70 @@ h1{
 }
 .schedule{
     width: 499px;
+    padding: 0;
 }
 .schedule h2{
     padding-top: 11px;
     padding-left: 91px;
     padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 44px;
+}
+.schedule h3{
+    padding-left: 94px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+}
+.schedule h4{
+    padding-left: 94px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+}
+.schedule p{
+    padding-left: 91px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+.schedule a{
+    padding-left: 91px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: black;
 }
 .pricing{
     width: 341px;
     background-color: #031926;
+    padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pricing h2{
+    padding: 11px 107px 12px;
+    padding-top: 11px;
+    padding-left: 107px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 44px;
+    color: #F6F6F6;
+}
+.pricing h3{
+    padding-left: 120px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: #F6F6F6;
+}
+.pricing h4{
+    padding-left: 120px;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    color: #F6F6F6;
+}
 
 
 /* Why Our Clients Choose Us */
@@ -178,7 +203,58 @@ h1{
     width: 547px;
 }
 
+/* Our Services */
+#our-services h2{
+    text-align: center;
+    text-decoration: underline;
+    background: #031926;
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    color: #f6F6F6;
+    margin-top: 84px;
+    margin-bottom: 54px;
+    padding-top: 15px;
+    padding-bottom: 29px;
 
+}
+#service{
+    color: #FD90B0;
+}
+.ser{
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+}
+.services{
+    margin: 40px auto 67px auto;
+    text-align: center;
+}
+.services h3{
+    font-size: 25px;
+    line-height: 34px;
+}
+.services p{
+    font-size: 1.125rem;
+    line-height: 25px;
+    width: 305px;
+}
+.left-box{
+    border-right: 3px solid #FD90B0;
+}
+.viewmore{
+    text-align: center;
+}
+.viewmore a{    
+    background: #085E5E;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+}
 
 
 
