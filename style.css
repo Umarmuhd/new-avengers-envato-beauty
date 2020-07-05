@@ -1,3 +1,4 @@
+
 body{
     color: black;
     font-family: 'Open Sans', sans-serif;
@@ -9,6 +10,20 @@ h1{
     font-size: 44px;
     line-height: 60px;
     width: 351px;
+}
+
+/* Reusable Components */
+.viewmore{
+    text-align: center;    
+}
+.viewmore a{    
+    background: #085E5E;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px 20px;
 }
 
 /* Navigation bar */
@@ -58,6 +73,7 @@ h1{
     background-repeat: no-repeat;
     background-position: center;
     height: 656px;
+    width: 1200px;
 }
 #crown{
     color: #085e5e;
@@ -161,12 +177,13 @@ h1{
 /* Why Our Clients Choose Us */
 #why-us{    
     padding: 84px 118px 72px 120px;
+    margin: 0;
 }
 #why-us h2{    
     text-align: center;
-    font-family: Open Sans;
     font-size: 32px;
     line-height: 44px;
+    padding-bottom: 72px;    
 }
 #clients{
     color: #FD90B0;
@@ -176,7 +193,7 @@ h1{
     
 }
 .why-us-content{
-    width: 687px;
+
 }
 
 .read-more{
@@ -195,10 +212,10 @@ h1{
 #para-1{
     padding-top: 132px;
     padding-bottom: 30px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 25px;
     line-height: 34px;
-    width: 655px;
+    text-align: left;
 }
 #para-2{
     font-weight: 400;
@@ -214,22 +231,27 @@ h1{
 
 
 /* Our Services */
+#our-services{
+    text-align: center;
+}
+.our-service-header{
+    background: #031926;
+    border-radius: 5px;
+    padding-top: 14.5px;
+    padding-bottom: 28.5px;
+}
 
 #our-services h2{
-    text-align: center;
     text-decoration: underline;
     background: #031926;
     font-family: 'Red Hat Display';
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 42px;
     color: #f6F6F6;
-    margin-top: 84px;
-    margin-bottom: 54px;
-    padding-top: 15px;
-    padding-bottom: 29px;
-
+    margin: 0;
 }
+
 #service{
     color: #FD90B0;
 }
@@ -238,9 +260,12 @@ h1{
     line-height: 34px;
     text-align: center;
 }
+.our-service-content{
+    padding: 54px 154px 60px 154px;
+}
 .services{
     padding: 40px auto 67px auto;
-    text-align: center;
+    margin-bottom: 67px;
 }
 .services h3{
     font-size: 25px;
@@ -249,17 +274,17 @@ h1{
 .services p{
     font-size: 1.125rem;
     line-height: 25px;
-    width: 305px;
-    text-align: center;
+    text-align: left;
+    padding-left: 105px;
+    padding-right: 70px;
 }
 .left-box{
     border-right: 3px solid #FD90B0;
 }
-.viewmore{
-    text-align: center;
-    margin-top: 67px;
+.our-service-viewmore{
+    text-align: center;    
 }
-.viewmore a{    
+.our-service-viewmore a{    
     background: #085E5E;
     border-radius: 5px;
     font-weight: 800;
@@ -274,9 +299,73 @@ h1{
 
 
 
+
+
+
+
+/* Our products */
+#our-products{
+    text-align: center;
+}
+.our-products-container h2{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 44px;
+    padding-bottom: 53px;
+    margin: 0;
+}
+#product{
+    color: #FD90B0;
+}
+.our-products-container p{
+    font-size: 24px;
+    line-height: 33px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+
+.add-to-cart-btn{
+    background: #085E5E;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Our Professionals */
 #pro-team{
     padding: 10px 120px;
+    text-align: center;
 }
 #pro-team h2{
     font-family: 'Red Hat Display';
@@ -284,24 +373,39 @@ h1{
     font-size: 2rem;
     line-height: 42px;
     text-align: center;
-    text-decoration: underline black;
-    margin-bottom: 0;
+    text-decoration: underline black;    ;
+    margin: 0 auto;
 }
 #pro{
     color: #FD90B0;
 }
 #pro-team p{  
-    padding-top: 72px;   
-    padding-bottom: 67px; 
     margin-bottom: 0;
     font-size: 25px;
     line-height: 34px;
-    text-align: center;
+    margin: 0;
+    padding: 84px 50px 81px 50px;
 }
 
 .team-image{
-    padding-right: 2%;
+    margin: 0 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Our Portfolio */
 #our-portfolio{
@@ -312,6 +416,18 @@ h1{
     font-size: 2rem;
     line-height: 44px;
     text-align: center;
+    text-decoration: underline black;
+    padding-bottom: 74px;
+    
+}
+#portfolio{
+    color: #FD90B0;
+}
+#our-portfolio p{
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    padding-bottom: 62px;
 }
 .portfolio-image{
     padding-left: 0;
@@ -321,10 +437,89 @@ h1{
 .portfolio-img{
     padding-top: 12px;
 }
+.port{
+    margin-bottom: 94px;
+}
 
 
 
 
+
+
+
+
+
+
+/* Testimonials */
+#our-testimonials{
+/* padding-top: 104px;
+padding-left: 121px;
+padding-right: 84px; */
+
+
+}
+.testimonial-header{
+    padding-top: 10.5px;
+    padding-bottom: 30.5px;
+    text-align: center;
+    background: #031926;
+}
+#our-testimonials h2{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 44px;    
+    text-decoration: underline #fff;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+#testimonial{
+    color: #FD90B0;
+}
+#our-testimonials p{
+    padding-top: 67px;
+    padding-bottom: 79px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.testimonial-box{
+    padding-left: 121px;
+    padding-bottom: 145px;
+}
+
+.test-text{
+    background: rgba(255, 255, 255, 0.8);
+    border: 5px solid #FD90B0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 84px;
+    text-align: center;
+}
+
+.test-text h3{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.test-text p{
+    /* padding: 22px 114px 64px 114px; */
+    /* padding-left: 114px;
+    padding-right: 114px; */
+    text-align: left;
+    width: 80%;
+    margin: 0 114px 64px 114px;
+}
+
+.testimonial-image{
+    position: relative;
+    bottom: 50px;
+    right: 120px;
+}
 
 
 
@@ -389,7 +584,7 @@ h1{
 
 /* Footer */
 .footer-bs {
-    background-color: #3c3d41;
+    background-color: #031926;
 	padding: 60px 40px;
 	color: rgba(255,255,255,1.00);
 	margin-bottom: 20px;
@@ -397,6 +592,7 @@ h1{
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 6px;
 }
+
 .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
 .footer-bs .footer-brand h2 { margin:0px 0px 10px; }
@@ -438,4 +634,8 @@ h1{
 
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+.footer-wrapper{
+    padding-left: 146px;
+    padding-right: 140px;
 }
