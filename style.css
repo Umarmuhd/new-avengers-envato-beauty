@@ -148,16 +148,16 @@ body {
 
 .schedule {
   width: 499px;
-  padding: 0;
+  padding: 11px 0 26px 0;
 }
 
 .schedule h2 {
-  padding-top: 11px;
   padding-left: 91px;
   padding-bottom: 12px;
   font-weight: bold;
   font-size: 2rem;
   line-height: 44px;
+  margin: 0;
 }
 
 .schedule h3 {
@@ -179,6 +179,8 @@ body {
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
+  padding-bottom: 23px;
+  margin: 0;
 }
 
 .schedule a {
@@ -192,18 +194,17 @@ body {
 .pricing {
   width: 341px;
   background-color: #031926;
-  padding: 0;
+  padding: 11px 0 55px 0;
 }
 
 .pricing h2 {
-  padding: 11px 107px 12px;
-  padding-top: 11px;
   padding-left: 107px;
   padding-bottom: 12px;
   font-weight: bold;
   font-size: 2rem;
   line-height: 44px;
   color: #f6f6f6;
+  margin: 0;
 }
 
 .pricing h3 {
@@ -224,7 +225,7 @@ body {
 
 /* Why Our Clients Choose Us */
 #why-us {
-  padding: 84px 118px 72px 120px;
+  padding: 0 118px 84px 120px;
   margin: 0;
 }
 
@@ -634,7 +635,7 @@ body {
 }
 
 .footer-bs ul li {
-  padding: 5px 0px;
+  padding: 15px 0px;
 }
 
 .footer-bs ul a {
@@ -660,54 +661,8 @@ body {
   padding: 0px;
 }
 
-.footer-bs .footer-nav ul.list li {
-  padding: 5px 0px;
-}
 
-.footer-bs .footer-nav ul.list a {
-  color: rgba(255, 255, 255, 0.8);
-}
 
-.footer-bs .footer-nav ul.list a:hover {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-
-.footer-bs .footer-social ul {
-  list-style: none;
-  padding: 0px;
-}
-
-.footer-bs .footer-social h4 {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.footer-bs .footer-social li {
-  padding: 5px 4px;
-}
-
-.footer-bs .footer-social a {
-  color: rgba(255, 255, 255, 1);
-}
-
-.footer-bs .footer-social a:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-}
-
-.footer-bs .footer-ns h4 {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin-bottom: 10px;
-}
-
-.footer-bs .footer-ns p {
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.7);
-}
 
 @media (min-width: 768px) {
 
