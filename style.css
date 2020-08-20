@@ -94,8 +94,7 @@ body {
 #header {
   background: url(images/background.svg);
   background-repeat: no-repeat;
-  background-position: 0
-  px;
+  background-position: 0px;
   height: 660px;
 }
 
