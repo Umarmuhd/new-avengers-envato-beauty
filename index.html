@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 
@@ -24,9 +27,9 @@
   <section id="header">
     <!-- Nav Bar -->
     <div class="nav-container">
-      <div class="wrapper">
+      <div class="container">
         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="">Gemma <span id="weave">Weaves</span></a>
+          <a class="navbar-brand" href="">Gemma <span class="weave">Weaves</span></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -52,7 +55,7 @@
     </div>
 
     <div class="header-container">
-      <div class="wrapper">
+      <div class="container">
         <div class="header-content">
           <h1>Your hair is your <span id="crown">Crown</span>, Wear it.</h1>
           <div class="header-see-more">
@@ -66,75 +69,73 @@
 
 
   <section id="schedule">
-
-    <div class="row schedule-container">
-      <div class="col-7 schedule">
-        <h2>SCHEDULE</h2>
-        <br>
-        <h3>Monday - Friday</h3>
-        <h4>9AM - 9PM</h4>
-        <br>
-        <h3>Saturday</h3>
-        <h4>10AM - 6PM</h4>
-        <br>
-        <h3>Sunday</h3>
-        <h4>Closed</h4>
-        <br>
-        <p>We will be glad to see you<br> anytime at the salon.</p>
-        <a href="#">
-          MAKE AN APPOINTMENT <img src="images/Arrow.png" alt="">
-        </a>
-      </div>
-      <div class="col pricing">
-        <h2>PRICING</h2>
-        <br>
-        <h3>Haircuts</h3>
-        <h4>FROM $5</h4>
-        <br>
-        <h3>Styling</h3>
-        <h4>FROM $8</h4>
-        <br>
-        <h3>Braiding</h3>
-        <h4>FROM $50</h4>
-        <br>
-        <h3>Perming</h3>
-        <h4>FROM $25</h4>
+    <div class="container">
+      <div class="row schedule-container">
+        <div class="col schedule">
+          <h2>SCHEDULE</h2>
+          <br>
+          <h3>Monday - Friday</h3>
+          <h4>9AM - 9PM</h4>
+          <br>
+          <h3>Saturday</h3>
+          <h4>10AM - 6PM</h4>
+          <br>
+          <h3>Sunday</h3>
+          <h4>Closed</h4>
+          <br>
+          <p>We will be glad to see you<br> anytime at the salon.</p>
+          <a href="#">
+            MAKE AN APPOINTMENT <img src="images/Arrow.png" alt="">
+          </a>
+        </div>
+        <div class="col pricing">
+          <h2>PRICING</h2>
+          <br>
+          <h3>Haircuts</h3>
+          <h4>FROM $5</h4>
+          <br>
+          <h3>Styling</h3>
+          <h4>FROM $8</h4>
+          <br>
+          <h3>Braiding</h3>
+          <h4>FROM $50</h4>
+          <br>
+          <h3>Perming</h3>
+          <h4>FROM $25</h4>
+        </div>
       </div>
     </div>
-
   </section>
 
   <section id="why-us">
-
-    <h2>Why Our <span id="clients">Clients</span> Choose us</h2>
-    <div class="row why-us-container">
-      <div class="col why-us-content">
-        <p id="para-1">
-          Gemma Weaves is one of the premier salons in Lagos, frequented not only by women but by men and kids as
-          well.
-        </p>
-        <p id="para-2">
-          Our hair salon has earned an incredible reputaion as our professional team of hairstylists continue to work
-          wonders on clients’ hair and enhance their assets through the wide array of offered services.
-        </p>
-        <div class="read-more">
-          <a href="#">
-            Read more
-          </a>
+    <h2 class="text-center">Why Our <span id="clients">Clients</span> Choose us</h2>
+    <div class="container">
+      <div class="row why-us-container">
+        <div class="col why-us-content wow animate__animated animate__slideInLeft" data-wow-duration="1.5s">
+          <p id="para-1">
+            Gemma Weaves is one of the premier salons in Lagos, frequented not only by women but by men and kids as
+            well.
+          </p>
+          <p id="para-2">
+            Our hair salon has earned an incredible reputaion as our professional team of hairstylists continue to work
+            wonders on clients’ hair and enhance their assets through the wide array of offered services.
+          </p>
+          <div class="read-more">
+            <a href="#">
+              Read more
+            </a>
+          </div>
+        </div>
+        <div class="col why-us-image wow animate__animated animate__slideInRight" data-wow-duration="1.5s">
+          <img src="images/Rectangle 50.png" alt="" />
         </div>
       </div>
-      <div class="col why-us-image">
-        <img src="images/Rectangle 50.png" alt="" />
-      </div>
     </div>
-
   </section>
 
   <section id="our-services">
 
-    <div class="our-service-header">
-      <h2>Our <span id="service">Services</span></h2>
-    </div>
+    <h2 class="our-service-header">Our <span id="service">Services</span></h2>
 
     <div class="our-service-content">
       <p class="ser">
@@ -325,9 +326,8 @@
   </section>
 
   <section id="our-testimonials">
-    <div class="testimonial-header">
-      <h2>Our <span id="testimonial">Testimonials</span> </h2>
-    </div>
+    
+      <h2 class="testimonial-header">Our <span id="testimonial">Testimonials</span> </h2>
 
     <p>
       Our clients usually have reviews that enable us perfect us services and also provide a better environment. Here
@@ -457,7 +457,7 @@
           </div>
 
         </div>
-       
+
       </div>
     </div>
 
@@ -480,6 +480,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
+  <!-- Wow Js -->
+  <script src="./assets/js/wow.min.js"></script>
 </body>
 
 </html>

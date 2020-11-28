@@ -3,8 +3,9 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
+  width: 1440px;
+  margin: 0 auto;
 }
-
 
 /* Reusable Components */
 .viewmore {
@@ -21,7 +22,7 @@ body {
   padding: 11px 20px;
 }
 
-/* Navigation bar */
+/* Navigation ba */
 .nav-container {
   background: rgba(255, 255, 255, 0.8);
   mix-blend-mode: normal;
@@ -34,7 +35,7 @@ body {
 }
 
 .navbar-brand {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
@@ -45,7 +46,7 @@ body {
   margin: 0;
 }
 
-#weave {
+.weave {
   color: #085e5e;
 }
 
@@ -94,10 +95,10 @@ body {
 #header {
   background: url(images/background.svg);
   background-repeat: no-repeat;
-  background-position: 0px;
-  height: 660px;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
 }
-
 
 /* Header */
 #crown {
@@ -106,7 +107,6 @@ body {
 
 .header-content {
   padding: 49px 92px 0 0;
-
 }
 
 .header-content h1 {
@@ -143,11 +143,12 @@ body {
   border: 2px solid #0cbaba;
   box-sizing: border-box;
   border-radius: 5px;
+  min-width: 840px;
 }
 
 .schedule {
-  width: 499px;
-  padding: 11px 0 26px 0;
+  padding: 11px 102px 26px 91px;
+  max-width: 499px;
 }
 
 .schedule h2 {
@@ -191,14 +192,13 @@ body {
 }
 
 .pricing {
-  width: 341px;
+  max-width: 341px;
   background-color: #031926;
-  padding: 11px 0 55px 0;
+  padding: 11px 101px 55px 107px;
 }
 
 .pricing h2 {
-  padding-left: 107px;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
   font-weight: bold;
   font-size: 2rem;
   line-height: 44px;
@@ -207,7 +207,8 @@ body {
 }
 
 .pricing h3 {
-  padding-left: 120px;
+  /* padding-left: 120px;
+  padding-right: 119px; */
   font-weight: 600;
   font-size: 25px;
   line-height: 34px;
@@ -229,7 +230,6 @@ body {
 }
 
 #why-us h2 {
-  text-align: center;
   font-size: 32px;
   line-height: 44px;
   padding-bottom: 72px;
@@ -271,7 +271,6 @@ body {
 .why-us-image {
   width: 547px;
 }
-
 
 /* Our Services */
 #our-services {
@@ -345,7 +344,6 @@ body {
   color: #ffffff;
   padding: 11px 20px;
 }
-
 
 /* Our products */
 #our-products {
@@ -473,9 +471,6 @@ body {
   border-radius: 5px;
 }
 
-
-
-
 /* Our Portfolio */
 #our-portfolio {
   padding: 0 117px 54px 120px;
@@ -552,9 +547,7 @@ body {
   padding: 0 120px 0 121px;
 }
 
-.test-box {
-  
-}
+.test-box {}
 
 .test-text {
   background: rgba(255, 255, 255, 0.8);
@@ -582,46 +575,47 @@ body {
   left: 20px;
 }
 
-
 /* Footer */
 .footer-bs {
   background-color: #031926;
   padding: 66px 140px 68px 146px;
-  color: #F6F6F6;
+  color: #f6f6f6;
 }
 
-.top-footer{
+.top-footer {
   padding-bottom: 119px;
 }
-.top-footer h4{
+
+.top-footer h4 {
   margin: 0;
   padding-bottom: 22px;
 }
 
-.footer-bs p{
+.footer-bs p {
   font-size: 18px;
   line-height: 22px;
-  color: #F6F6F6;  
+  color: #f6f6f6;
   margin: 0;
 }
 
-.footer-bs .top-footer p{
+.footer-bs .top-footer p {
   width: 60%;
 }
-.input-group button{
+
+.input-group button {
   padding-left: 7px;
 }
 
-#subcribe{
+#subcribe {
   font-size: 18px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 6px 39px 9px 33px;
-  background: #085E5E;
+  background: #085e5e;
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-.footer-bs ul{
+.footer-bs ul {
   list-style: none;
   padding: 0px;
 }
@@ -633,11 +627,11 @@ body {
 .footer-bs ul a {
   font-size: 18px;
   line-height: 22px;
-  color: #F6F6F6;
+  color: #f6f6f6;
 }
 
 .footer-bs ul a:hover {
-  color: #F6F6F6;
+  color: #f6f6f6;
   text-decoration: none;
 }
 
@@ -645,7 +639,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  color: #F6F6F6;
+  color: #f6f6f6;
 }
 
 .footer-bs ul.list {
@@ -653,9 +647,4 @@ body {
   padding: 0px;
 }
 
-
-
-
-@media (max-width: 760px) {
-  
-}
+@media (max-width: 760px) {}
