@@ -3,7 +3,9 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  width: 1440px;
+  overflow-x: hidden;
+  width: 100vw;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -22,8 +24,12 @@ body {
   padding: 11px 20px;
 }
 
+#header .container-fluid {
+  padding: 0 100px;
+}
+
 /* Navigation ba */
-.nav-container {
+nav {
   background: rgba(255, 255, 255, 0.8);
   mix-blend-mode: normal;
   height: 88px;
@@ -50,13 +56,6 @@ body {
   color: #085e5e;
 }
 
-.nav-ul-container {
-  padding-top: 35px;
-  padding-bottom: 34px;
-  margin: 0;
-  width: 469px;
-}
-
 .navbar-nav {
   /* height: 19px;   */
   text-align: justify;
@@ -72,32 +71,20 @@ body {
 }
 
 .nav-link {
-  font-family: Lato;
+  font-family: 'Lato';
   font-weight: 600;
   font-size: 16px;
   line-height: 19px;
   text-align: justify;
   color: black;
-  padding: 0px;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 0;
-}
-
-.wrapper {
-  width: 1231px;
-  margin: 0 auto;
-  padding-left: 100px;
-  padding-right: 92px;
 }
 
 #header {
   background: url(images/background.svg);
   background-repeat: no-repeat;
+  width: 100vw;
   height: 100vh;
   background-size: cover;
-  position: relative;
 }
 
 /* Header */
@@ -147,35 +134,32 @@ body {
 }
 
 .schedule {
-  padding: 11px 102px 26px 91px;
+  padding: 11px 90px 26px 85px;
   max-width: 499px;
 }
 
 .schedule h2 {
-  padding-left: 91px;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
   font-weight: bold;
   font-size: 2rem;
   line-height: 44px;
-  margin: 0;
 }
 
-.schedule h3 {
-  padding-left: 94px;
+.schedule p.days {
   font-weight: 600;
   font-size: 25px;
   line-height: 34px;
+  margin-bottom: 0;
 }
 
-.schedule h4 {
-  padding-left: 94px;
+.schedule p.time {
   font-weight: normal;
   font-size: 25px;
   line-height: 34px;
+  margin-bottom: 8px;
 }
 
-.schedule p {
-  padding-left: 91px;
+.schedule p.schedule-message {
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
@@ -184,8 +168,7 @@ body {
 }
 
 .schedule a {
-  padding-left: 91px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 25px;
   color: black;
@@ -194,7 +177,8 @@ body {
 .pricing {
   max-width: 341px;
   background-color: #031926;
-  padding: 11px 101px 55px 107px;
+  color: #f6f6f6;
+  padding: 11px 0 55px 107px;
 }
 
 .pricing h2 {
@@ -202,25 +186,19 @@ body {
   font-weight: bold;
   font-size: 2rem;
   line-height: 44px;
-  color: #f6f6f6;
-  margin: 0;
 }
 
-.pricing h3 {
-  /* padding-left: 120px;
-  padding-right: 119px; */
+.pricing p.style-type {
   font-weight: 600;
   font-size: 25px;
   line-height: 34px;
-  color: #f6f6f6;
+  margin-bottom: 0;
 }
 
-.pricing h4 {
-  padding-left: 120px;
+.pricing p.style-price {
   font-weight: normal;
   font-size: 25px;
   line-height: 34px;
-  color: #f6f6f6;
 }
 
 /* Why Our Clients Choose Us */
@@ -232,11 +210,36 @@ body {
 #why-us h2 {
   font-size: 32px;
   line-height: 44px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 #clients {
   color: #fd90b0;
+}
+
+#why-us .why-us-content {
+  padding-top: 132px;
+}
+
+#why-us .why-us-content p:first-child {
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+#why-us .why-us-content p:last-child {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+#why-us .why-us-content p.width-65 {
+  width: 70%;
+}
+
+#why-us .why-us-content div.read-more {
+  margin-top: 50px;
 }
 
 .read-more {
@@ -251,21 +254,6 @@ body {
   line-height: 19px;
   color: #ffffff;
   padding: 11px 20px;
-}
-
-#para-1 {
-  padding-top: 132px;
-  padding-bottom: 30px;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 34px;
-  text-align: left;
-}
-
-#para-2 {
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 34px;
 }
 
 .why-us-image {
@@ -321,14 +309,21 @@ body {
 
 .services p {
   font-size: 1.125rem;
-  line-height: 25px;
-  text-align: left;
-  padding-left: 105px;
-  padding-right: 70px;
+  line-height: 25px
 }
 
-.left-box {
+.services .left-box {
   border-right: 3px solid #fd90b0;
+}
+
+.services .left-box p {
+  width: 57%;
+  margin: 0 auto;
+}
+
+.services .right-box p {
+  width: 54%;
+  margin: 0 auto;
 }
 
 .our-service-viewmore {
@@ -350,19 +345,18 @@ body {
   text-align: center;
 }
 
-.our-products-container h2 {
+#our-products h2 {
   font-weight: bold;
   font-size: 2rem;
   line-height: 44px;
-  padding-bottom: 53px;
-  margin: 0;
+  margin-bottom: 53px;
 }
 
 #product {
   color: #fd90b0;
 }
 
-.our-products-container p {
+#our-products p.product-body {
   font-size: 24px;
   line-height: 33px;
   width: 60%;
@@ -647,4 +641,98 @@ body {
   padding: 0px;
 }
 
-@media (max-width: 760px) {}
+@media (max-width: 760px) {
+
+  /* Schedule */
+  #schedule {
+    padding: 40px 0 27px;
+  }
+
+  #schedule .schedule-container {
+    min-width: auto !important;
+    border: 1px solid #0CBABA;
+    border-radius: 0;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .schedule {
+    padding: 3px 0 10px 8px;
+    max-width: 55% !important;
+  }
+
+  .schedule h2,
+  .pricing h2 {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+  }
+
+  .schedule p.days {
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 11px;
+  }
+
+  .schedule p.time {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11px;
+    margin-bottom: 7px;
+  }
+
+  .schedule p.schedule-message {
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 11px;
+  }
+
+  .schedule a {
+    font-size: 8px;
+    line-height: 11px;
+  }
+
+  .schedule a img {
+    width: 29px;
+  }
+
+  .pricing {
+    padding: 3px 0 10px 32px;
+    max-width: 45%;
+  }
+
+  .pricing p.style-type {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 11px;
+  }
+
+  .pricing p.style-price {
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 11px;
+  }
+
+  /* Why us */
+  #why-us {
+    padding: 0 6.5% 0;
+  }
+
+  #why-us h2 {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    margin-bottom: 25px;
+  }
+
+  #why-us .why-us-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #why-us .why-us-image {
+    width: 86%;
+  }
+
+
+}

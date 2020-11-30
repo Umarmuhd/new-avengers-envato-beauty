@@ -1,489 +1,522 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
-  <!-- Required meta tags -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
 
-  <!-- Animate.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
+    <title>Gemma Landing Page</title>
+  </head>
 
-  <title>Gemma Landing Page</title>
-</head>
-
-<body>
-
-  <section id="header">
-    <!-- Nav Bar -->
-    <div class="nav-container">
-
+  <body>
+    <section id="header">
+      <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="">Gemma <span class="weave">Weaves</span></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid">
+          <a class="navbar-brand" href=""
+            >Gemma <span class="weave">Weaves</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="nav-ul-container collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="">Home</a>
+                <a class="nav-link p-0" href="">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Contact Us</a>
+                <a class="nav-link p-0" href="">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">About</a>
+                <a class="nav-link p-0" href="">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="">Gallery</a>
+                <a class="nav-link p-0" href="">Gallery</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
 
-    </div>
-
-    <div class="header-container">
-      <div class="container">
-        <div class="header-content">
-          <h1>Your hair is your <span id="crown">Crown</span>, Wear it.</h1>
-          <div class="header-see-more">
-            <a href="#">See more</a>
+      <div class="header-container">
+        <div class="container-fluid">
+          <div class="header-content">
+            <h1>Your hair is your <span id="crown">Crown</span>, Wear it.</h1>
+            <div class="header-see-more">
+              <a href="#">See more</a>
+            </div>
           </div>
-
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-  <section id="schedule">
-    <div class="container">
+    <section id="schedule">
       <div class="row schedule-container">
         <div class="col schedule">
           <h2>SCHEDULE</h2>
-          <br>
-          <h3>Monday - Friday</h3>
-          <h4>9AM - 9PM</h4>
-          <br>
-          <h3>Saturday</h3>
-          <h4>10AM - 6PM</h4>
-          <br>
-          <h3>Sunday</h3>
-          <h4>Closed</h4>
-          <br>
-          <p>We will be glad to see you<br> anytime at the salon.</p>
+
+          <p class="days">Monday - Friday</p>
+          <p class="time">9AM - 9PM</p>
+
+          <p class="days">Saturday</p>
+          <p class="time">10AM - 6PM</p>
+
+          <p class="days">Sunday</p>
+          <p class="time">Closed</p>
+
+          <p class="schedule-message">
+            We will be glad to see you<br />
+            anytime at the salon.
+          </p>
           <a href="#">
-            MAKE AN APPOINTMENT <img src="images/Arrow.png" alt="">
+            MAKE AN APPOINTMENT <img src="images/Arrow.png" alt="" />
           </a>
         </div>
         <div class="col pricing">
           <h2>PRICING</h2>
-          <br>
-          <h3>Haircuts</h3>
-          <h4>FROM $5</h4>
-          <br>
-          <h3>Styling</h3>
-          <h4>FROM $8</h4>
-          <br>
-          <h3>Braiding</h3>
-          <h4>FROM $50</h4>
-          <br>
-          <h3>Perming</h3>
-          <h4>FROM $25</h4>
+
+          <p class="style-type">Haircuts</p>
+          <p class="style-price">FROM $5</p>
+
+          <p class="style-type">Styling</p>
+          <p class="style-price">FROM $8</p>
+
+          <p class="style-type">Braiding</p>
+          <p class="style-price">FROM $50</p>
+
+          <p class="style-type">Perming</p>
+          <p class="style-price">FROM $25</p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="why-us">
-    <h2 class="text-center">Why Our <span id="clients">Clients</span> Choose us</h2>
-    <div class="container">
+    <section id="why-us">
+      <h2 class="text-center">
+        Why Our <span id="clients">Clients</span> Choose us
+      </h2>
       <div class="row why-us-container">
-        <div class="col why-us-content wow animate__animated animate__slideInLeft" data-wow-duration="1.5s">
-          <p id="para-1">
-            Gemma Weaves is one of the premier salons in Lagos, frequented not only by women but by men and kids as
-            well.
+        <div
+          class="col-md-6 text-left why-us-content wow animate__animated animate__slideInLeft"
+          data-wow-duration="1.5s"
+        >
+          <p>
+            Gemma Weaves is one of the premier salons in Lagos, frequented not
+            only by women but by men and kids as well.
           </p>
-          <p id="para-2">
-            Our hair salon has earned an incredible reputaion as our professional team of hairstylists continue to work
-            wonders on clients’ hair and enhance their assets through the wide array of offered services.
+          <p class="width-65">
+            Our hair salon has earned an incredible reputaion as our
+            professional team of hairstylists continue to work wonders on
+            clients’ hair and enhance their assets through the wide array of
+            offered services.
           </p>
           <div class="read-more">
-            <a href="#">
-              Read more
-            </a>
+            <a href="#"> Read more </a>
           </div>
         </div>
-        <div class="col why-us-image wow animate__animated animate__slideInRight" data-wow-duration="1.5s">
+        <div
+          class="col-md-6 why-us-image wow animate__animated animate__slideInRight"
+          data-wow-duration="1.5s"
+        >
           <img src="images/Rectangle 50.png" alt="" />
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="our-services">
+    <section id="our-services">
+      <h2 class="our-service-header">Our <span id="service">Services</span></h2>
 
-    <h2 class="our-service-header">Our <span id="service">Services</span></h2>
+      <div class="our-service-content">
+        <p class="ser">
+          We offer a complete range of hair services including haircut, styling,
+          coloring, perming, hair straightening and a lot more. You can learn
+          more about our services below.
+        </p>
+        <div class="row services">
+          <div class="col left-box">
+            <h3>Coloring <img src="images/coloring.png" alt="" /></h3>
+            <p class="text-left">
+              One of the most popular services at Gemma Weaves, coloring can
+              change the way your haircut looks.
+            </p>
+          </div>
+          <div class="col right-box">
+            <h3>Haircuts <img src="images/haircut.png" alt="" /></h3>
+            <p class="text-left">
+              Our salon offers high quality haircuts for both adults and kids
+            </p>
+          </div>
+        </div>
+        <div class="our-service-viewmore">
+          <a href="#"> View more </a>
+        </div>
+      </div>
+    </section>
 
-    <div class="our-service-content">
-      <p class="ser">
-        We offer a complete range of hair services including haircut, styling, coloring, perming, hair straightening and
-        a
-        lot more. You can learn more about our services below.
+    <section id="our-products">
+      <div class="our-products-container">
+        <h2 class="product-head">Our <span id="product">Products</span></h2>
+        <p class="product-body">
+          We provide the best kinds of products for different kinds of hair
+          type. These products enable clients maintain their hair after visiting
+          the salon.
+        </p>
+      </div>
+      <div class="carousel-box">
+        <div id="product-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+            <div class="product-carousel-item carousel-item active">
+              <div class="product-carousel-container row">
+                <div class="product-info col-sm-4">
+                  <img class="product-image" src="images/gel.png" alt="" />
+                  <p class="card-text">
+                    Hair cream<br />
+                    $16
+                  </p>
+                  <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                </div>
+
+                <div class="product-info col-sm-4">
+                  <img class="product-image" src="images/gel.png" alt="" />
+                  <p class="card-text">
+                    Skin light<br />
+                    $30
+                  </p>
+                  <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                </div>
+
+                <div class="product-info col-sm-4">
+                  <img class="product-image" src="images/gel.png" alt="" />
+                  <p class="card-text">
+                    Spot remover<br />
+                    $20
+                  </p>
+                  <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-carousel-item carousel-item">
+              <div class="row">
+                <div class="product-info col-sm-4">
+                  <img class="product-image" src="images/gel.png" alt="" />
+                  <p class="card-text">
+                    Curl Enhancer<br />
+                    $20
+                  </p>
+                  <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                </div>
+
+                <div class="product-info col-sm-4">
+                  <img class="product-image" src="images/gel.png" alt="" />
+                  <p class="card-text">
+                    Leave-In Conditioner<br />
+                    $30
+                  </p>
+                  <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                </div>
+
+                <div class="product-info col-sm-4">
+                  <img class="product-image" src="images/gel.png" alt="" />
+                  <p class="card-text">
+                    Hair Gel <br />
+                    $15
+                  </p>
+                  <a href="#" class="add-to-cart-btn">ADD TO CART</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            class="carousel-control-prev"
+            href="#product-carousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#product-carousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="pro-team">
+      <h2>Our <span id="pro">Professional</span> Team</h2>
+      <p class="professionals">
+        Gamma Weaves employs the best hairdressers and stylists. We also offer
+        special training. Here are some prominent hair dressers and stylists at
+        Gamma Weaves.
       </p>
-      <div class="row services">
-        <div class="col left-box">
-          <h3>Coloring <img src="images/coloring.png" alt=""></h3>
-          <p>
-            One of the most popular services at Gemma Weaves, coloring can change the way your haircut looks.
-          </p>
+      <div class="row team">
+        <div class="col team-image">
+          <img src="images/team.png" alt="" />
+          <h3>Sylver Fox</h3>
+          <p>Hair Stylist</p>
         </div>
-        <div class="col">
-          <h3>Haircuts <img src="images/haircut.png" alt=""></h3>
-          <p>
-            Our salon offers high quality haircuts for both adults and kids
-          </p>
+
+        <div class="col team-image team-image-mid">
+          <img src="images/team.png" alt="" />
+          <h3>Angela WU</h3>
+          <p>Manager, Hair Colorist</p>
+        </div>
+
+        <div class="col team-image">
+          <img src="images/team.png" alt="" />
+          <h3>Mariam Gemma</h3>
+          <p>Founder, Hair Dresser</p>
         </div>
       </div>
-      <div class="our-service-viewmore">
-        <a href="#">
-          View more
-        </a>
-      </div>
-    </div>
+      <a class="view-all" href="#"> View all </a>
+    </section>
 
-  </section>
-
-
-  <section id="our-products">
-    <div class="our-products-container">
-      <h2>Our <span id="product">Products</span></h2>
+    <section id="our-portfolio">
+      <h2>Our <span id="portfolio">Portfolio</span></h2>
       <p>
-        We provide the best kinds of products for different kinds of hair type. These products enable clients maintain
-        their hair after visiting the salon.
+        Check out the full portfolio our works including haircuts, hair
+        extensions and and more.
       </p>
-    </div>
-    <div class="carousel-box">
-      <div id="product-carousel" class="carousel slide" data-ride="false">
-        <div class="carousel-inner">
-
-          <div class="product-carousel-item carousel-item active">
-            <div class="product-carousel-container row">
-
-              <div class="product-info col-sm-4">
-                <img class="product-image" src="images/gel.png" alt="">
-                <p class="card-text">
-                  Hair cream<br>
-                  $16
-                </p>
-                <a href="#" class="add-to-cart-btn">ADD TO CART</a>
-              </div>
-
-              <div class="product-info col-sm-4">
-                <img class="product-image" src="images/gel.png" alt="">
-                <p class="card-text">
-                  Skin light<br>
-                  $30
-                </p>
-                <a href="#" class="add-to-cart-btn">ADD TO CART</a>
-              </div>
-
-              <div class="product-info col-sm-4">
-                <img class="product-image" src="images/gel.png" alt="">
-                <p class="card-text">
-                  Spot remover<br>
-                  $20
-                </p>
-                <a href="#" class="add-to-cart-btn">ADD TO CART</a>
-              </div>
-
-            </div>
+      <div class="container-fluid">
+        <div class="port row">
+          <div class="portfolio-image col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <img src="images/Rectangle 60.png" class="img-fluid" />
+            <img
+              src="images/Rectangle 60.png"
+              class="img-fluid portfolio-img"
+            />
+          </div>
+          <div class="portfolio-image col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <img src="images/Rectangle 61.png" class="img-fluid" />
           </div>
 
-          <div class="product-carousel-item carousel-item">
-            <div class="row">
-
-              <div class="product-info col-sm-4">
-                <img class="product-image" src="images/gel.png" alt="">
-                <p class="card-text">
-                  Curl Enhancer<br>
-                  $20
-                </p>
-                <a href="#" class="add-to-cart-btn">ADD TO CART</a>
-              </div>
-
-              <div class="product-info col-sm-4">
-                <img class="product-image" src="images/gel.png" alt="">
-                <p class="card-text">
-                  Leave-In Conditioner<br>
-                  $30
-                </p>
-                <a href="#" class="add-to-cart-btn">ADD TO CART</a>
-              </div>
-
-              <div class="product-info col-sm-4">
-                <img class="product-image" src="images/gel.png" alt="">
-                <p class="card-text">
-                  Hair Gel <br>
-                  $15
-                </p>
-                <a href="#" class="add-to-cart-btn">ADD TO CART</a>
-              </div>
-
-            </div>
+          <div class="portfolio-image col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <img src="images/Rectangle 60.png" class="img-fluid" />
+            <img
+              src="images/Rectangle 60.png"
+              class="img-fluid portfolio-img"
+            />
           </div>
         </div>
 
-        <a class="carousel-control-prev" href="#product-carousel" role="button" data-slide="prev">
+        <div class="viewmore">
+          <a href="#"> View more </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-testimonials">
+      <h2 class="testimonial-header">
+        Our <span id="testimonial">Testimonials</span>
+      </h2>
+
+      <p>
+        Our clients usually have reviews that enable us perfect us services and
+        also provide a better environment. Here are some popular testimonials.
+      </p>
+
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="testimonial-carousel-item carousel-item active">
+            <div class="test-box row">
+              <div class="testimonial-box col-sm-5">
+                <div class="test-text">
+                  <h3>Jane Anthony</h3>
+                  <p>
+                    The Customer service at Gemma Weaves is simply amazing. They
+                    make sure I get exactly what I want.
+                  </p>
+                </div>
+                <img class="testimonial-image" src="images/test.png" alt="" />
+              </div>
+              <div class="testimonial-box col-sm-5">
+                <div class="test-text">
+                  <h3>Grace Pritchett</h3>
+                  <p>
+                    The Customer service at Gemma Weaves is simply amazing. They
+                    make sure I get exactly what I want.
+                  </p>
+                </div>
+                <img class="testimonial-image" src="images/test.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-carousel-item carousel-item">
+            <div class="row">
+              <div class="testimonial-box col-sm-5">
+                <div class="test-text">
+                  <h3>Jane Anthony</h3>
+                  <p>
+                    The Customer service at Gemma Weaves is simply amazing. They
+                    make sure I get exactly what I want.
+                  </p>
+                </div>
+                <img class="testimonial-image" src="images/test.png" alt="" />
+              </div>
+              <div class="testimonial-box col-sm-5">
+                <div class="test-text">
+                  <h3>Grace Pritchett</h3>
+                  <p>
+                    The Customer service at Gemma Weaves is simply amazing. They
+                    make sure I get exactly what I want.
+                  </p>
+                </div>
+                <img class="testimonial-image" src="images/test.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#product-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"
+            ><img src="images/Arrow.svg" alt=""
+          /></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
+    </section>
 
+    <!----------- Footer ------------>
+    <footer class="footer-bs">
+      <div class="footer-wrapper">
+        <div class="top-footer row">
+          <div class="col-7">
+            <h4>Sign up for our Newsletter</h4>
+            <p>
+              Get critical knowledege on<br />
+              our discounts and travel opportunities
+            </p>
+          </div>
 
-  </section>
-
-  <section id="pro-team">
-
-    <h2>Our <span id="pro">Professional</span> Team</h2>
-    <p class="professionals">
-      Gamma Weaves employs the best hairdressers and stylists. We also offer special training. Here are some prominent
-      hair dressers and stylists at Gamma Weaves.
-    </p>
-    <div class="row team">
-
-      <div class="col team-image">
-        <img src="images/team.png" alt="">
-        <h3>Sylver Fox</h3>
-        <p>Hair Stylist</p>
-      </div>
-
-      <div class="col team-image team-image-mid">
-        <img src="images/team.png" alt="">
-        <h3>Angela WU</h3>
-        <p>Manager, Hair Colorist</p>
-      </div>
-
-      <div class="col team-image">
-        <img src="images/team.png" alt="">
-        <h3>Mariam Gemma</h3>
-        <p>Founder, Hair Dresser</p>
-      </div>
-
-    </div>
-    <a class="view-all" href="#">
-      View all
-    </a>
-
-  </section>
-
-  <section id="our-portfolio">
-
-    <h2>Our <span id="portfolio">Portfolio</span></h2>
-    <p>
-      Check out the full portfolio our works including haircuts, hair extensions and and more.
-    </p>
-    <div class="container-fluid">
-      <div class="port row">
-        <div class="portfolio-image col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <img src="images/Rectangle 60.png" class="img-fluid">
-          <img src="images/Rectangle 60.png" class="img-fluid portfolio-img">
-        </div>
-        <div class="portfolio-image col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <img src="images/Rectangle 61.png" class="img-fluid">
-        </div>
-
-        <div class="portfolio-image col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <img src="images/Rectangle 60.png" class="img-fluid">
-          <img src="images/Rectangle 60.png" class="img-fluid portfolio-img">
-        </div>
-      </div>
-
-      <div class="viewmore">
-        <a href="#">
-          View more
-        </a>
-      </div>
-    </div>
-
-  </section>
-
-  <section id="our-testimonials">
-
-    <h2 class="testimonial-header">Our <span id="testimonial">Testimonials</span> </h2>
-
-    <p>
-      Our clients usually have reviews that enable us perfect us services and also provide a better environment. Here
-      are some popular testimonials.
-    </p>
-
-    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-
-        <div class="testimonial-carousel-item carousel-item active">
-          <div class="test-box row">
-            <div class="testimonial-box col-sm-5">
-              <div class="test-text">
-                <h3>Jane Anthony</h3>
-                <p>The Customer service at Gemma Weaves is simply amazing. They make sure I get exactly what I
-                  want.</p>
-              </div>
-              <img class="testimonial-image" src="images/test.png" alt="">
-            </div>
-            <div class="testimonial-box col-sm-5">
-              <div class="test-text">
-                <h3>Grace Pritchett</h3>
-                <p>The Customer service at Gemma Weaves is simply amazing. They make sure I get exactly what I
-                  want.</p>
-              </div>
-              <img class="testimonial-image" src="images/test.png" alt="">
+          <div class="col-5">
+            <h4>Your Email</h4>
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Example@email.com"
+              />
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  <span id="subcribe">Subcribe</span>
+                </button>
+              </span>
             </div>
           </div>
         </div>
-        <div class="testimonial-carousel-item carousel-item">
-          <div class="row">
-            <div class="testimonial-box col-sm-5">
-              <div class="test-text">
-                <h3>Jane Anthony</h3>
-                <p>The Customer service at Gemma Weaves is simply amazing. They make sure I get exactly what I
-                  want.</p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Gemma Weaves</h4>
+            <p>Your favourite first weave sopt</p>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4">
+                <h4>Quick links</h4>
+                <ul class="pages">
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
               </div>
-              <img class="testimonial-image" src="images/test.png" alt="">
-            </div>
-            <div class="testimonial-box col-sm-5">
-              <div class="test-text">
-                <h3>Grace Pritchett</h3>
-                <p>The Customer service at Gemma Weaves is simply amazing. They make sure I get exactly what I
-                  want.</p>
+
+              <div class="col-md-4">
+                <h4>Services</h4>
+                <ul>
+                  <li><a href="#">Delivery</a></li>
+                  <li><a href="#">Purchase</a></li>
+                  <li><a href="#">Consult Specialist</a></li>
+                </ul>
               </div>
-              <img class="testimonial-image" src="images/test.png" alt="">
+
+              <div class="col-md-4">
+                <h4>Social Media</h4>
+                <ul>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Linkedin</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"><img src="images/Arrow.svg" alt=""></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </section>
+    </footer>
 
-
-
-
-
-
-
-
-  <!----------- Footer ------------>
-  <footer class="footer-bs">
-    <div class="footer-wrapper">
-
-      <div class="top-footer row">
-
-        <div class="col-7">
-          <h4>Sign up for our Newsletter</h4>
-          <p>Get critical knowledege on<br> our discounts and travel opportunities</p>
-        </div>
-
-        <div class="col-5">
-          <h4>Your Email</h4>
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Example@email.com">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button"><span id="subcribe">Subcribe</span></button>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <h4>Gemma Weaves</h4>
-          <p>Your favourite first weave sopt</p>
-        </div>
-
-        <div class="col-md-6">
-          <div class="row">
-
-            <div class="col-md-4">
-              <h4>Quick links </h4>
-              <ul class="pages">
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Careers</a></li>
-              </ul>
-            </div>
-
-            <div class="col-md-4">
-              <h4>Services</h4>
-              <ul>
-                <li><a href="#">Delivery</a></li>
-                <li><a href="#">Purchase</a></li>
-                <li><a href="#">Consult Specialist</a></li>
-              </ul>
-            </div>
-
-            <div class="col-md-4">
-              <h4>Social Media</h4>
-              <ul>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Linkedin</a></li>
-              </ul>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
-  </footer>
-
-
-
-
-
-
-
-  <!-- Optional Javascript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
-  <!-- Wow Js -->
-  <script src="./assets/js/wow.min.js"></script>
-</body>
-
+    <!-- Optional Javascript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Wow Js -->
+    <script src="./assets/js/wow.min.js"></script>
+  </body>
 </html>
